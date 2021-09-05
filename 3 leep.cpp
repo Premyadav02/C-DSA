@@ -4,9 +4,8 @@ using namespace std;
 int main() 
 {
     int year;
-    year = 2002
-    // cout << "Enter a year: ";
-    // cin >> year;
+    cout << "Enter a year: ";
+    cin >> year;
 
     if(year % 4 == 0)
     {
