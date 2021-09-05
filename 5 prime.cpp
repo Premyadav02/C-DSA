@@ -2,11 +2,11 @@
 using namespace std;
 
 int main() {
-    int i, n = 17;
+    int i, n;
     bool isPrime = true;
 
-    // cout << "Enter a positive integer: ";
-    // cin >> n;
+    cout << "Enter a positive integer: ";
+    cin >> n;
 
     // 0 and 1 are not prime numbers
     if (n == 0 || n == 1) {
